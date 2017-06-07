@@ -1,7 +1,11 @@
 <?php
-namespace test2;
+//namespace test2;
+class test2
+{
 
-function test(){
-    echo __FILE__;
+    function test()
+    {
+        echo __FILE__;
+    }
+
 }
-
