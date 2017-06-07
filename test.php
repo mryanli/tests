@@ -5,7 +5,7 @@
 test1::test();
 test2::test();
 
-function __autoload($class){
+function load1($class){
 
     require $class.".php";
 }
